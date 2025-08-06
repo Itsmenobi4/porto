@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Rafiq</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-900 text-gray-100 font-sans">
+
+    <nav class="flex justify-between items-center p-6 bg-gray-800 shadow-sm">
+      <h1 class="text-xl font-bold text-white">Rafiq.Dev</h1>
+      <ul class="flex space-x-6 text-sm">
+        <li><a href="#about" class="hover:text-blue-400">About</a></li>
+        <li><a href="#achievements" class="hover:text-blue-400">Achievements</a></li>
+        <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="text-center py-20 px-6" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-2">Halo, gue Rafiq 👋</h2>
+      <p class="text-gray-400 mb-4">Front-end Dev | UI/UX Dark Mode Enthusiast</p>
+      <a href="#projects" class="inline-block mt-4 px-5 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition text-sm">Lihat Proyek</a>
+    </section>
+
+    <section id="about" class="max-w-3xl mx-auto py-16 px-6" data-aos="fade-right">
+      <h3 class="text-2xl font-semibold mb-4">Tentang Gue</h3>
+      <p class="text-gray-300 leading-relaxed text-sm">
+        Gue adalah front-end developer yang fokus bikin UI clean dan nyaman di mata (terutama dark mode).  
+        Gue juga suka UI/UX design yang simpel tapi impactful.  
+        Sering ikut project, dan selalu open buat belajar hal baru.
+      </p>
+    </section>
+
+    <section id="achievements" class="bg-gray-800 py-16 px-6" data-aos="fade-up">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-10 text-center">Pencapaian</h3>
+        <div class="grid md:grid-cols-3 gap-6 text-sm">
+          <div class="bg-gray-700 p-6 rounded-lg">
+            <h4 class="text-lg font-medium mb-1 text-blue-400">Juara 2 Web Design</h4>
+            <p class="text-gray-300">Lomba antar SMK se-DKI, fokus di UI dark mode dan responsive layout.</p>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg">
+            <h4 class="text-lg font-medium mb-1 text-blue-400">Juara 1 di kejuaraan pencak silat piala kemenpora 2024</h4>
+            <p class="text-gray-300">Menjuarai event pencak silat tingkat nasional</p>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg">
+            <h4 class="text-lg font-medium mb-1 text-blue-400">Juara 1 Pekan olahraga Pelajar Nasional 2024</h4>
+            <p class="text-gray-300">Menjuarai POPNAS 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-16 px-6 bg-gray-900">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-10 text-center" data-aos="fade-up">Proyek Terbaru</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-gray-800 p-5 rounded-lg shadow-sm transform transition hover:-translate-y-1 hover:shadow-md duration-300" data-aos="fade-up" data-aos-delay="100">
+            <h4 class="text-lg font-medium mb-1 text-blue-400">Ravencell</h4>
+            <p class="text-sm text-gray-400">Top-up web dark mode, mobile-first, dan user-friendly.</p>
+          </div>
+          <div class="bg-gray-800 p-5 rounded-lg shadow-sm transform transition hover:-translate-y-1 hover:shadow-md duration-300" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="text-lg font-medium mb-1 text-blue-400">Web Storybook</h4>
+            <p class="text-sm text-gray-400">Kisah cinta interaktif, layout per halaman, vibe gelap romantis.</p>
+          </div>
+          <div class="bg-gray-800 p-5 rounded-lg shadow-sm transform transition hover:-translate-y-1 hover:shadow-md duration-300" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="text-lg font-medium mb-1 text-blue-400">NextGens</h4>
+            <p class="text-sm text-gray-400">Showcase project anak SMK, minimalis dan dark themed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="text-center py-16 px-6" data-aos="fade-up">
+      <h3 class="text-2xl font-semibold mb-4">Hubungi Gue</h3>
+      <p class="text-gray-400 text-sm mb-2">Mau kolaborasi? Ngobrol? Kirim aja email 👇</p>
+      <link src="fadhilmusyaffa999@gmail.com" class="text-blue-400 hover:underline text-sm">fadhilmusyaffa999@gmail.com</a>
+    </section>
+
+    <footer class="text-center py-6 text-sm text-gray-500 bg-gray-800">
+      © 2025 Rafiq • Dibuat dengan Tailwind CSS + AOS
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
